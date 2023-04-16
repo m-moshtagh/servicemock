@@ -1,0 +1,15 @@
+server:
+  port: 9001
+  tomcat:
+    threads:
+      max: 800
+      min-spare: 80
+    connection-timeout: 5s
+  compression:
+    mime-types:
+    - text/xml
+    enabled: true
+
+logging:
+  level:
+    root: ERROR
